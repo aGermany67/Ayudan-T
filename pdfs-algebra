@@ -1,0 +1,82 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+
+
+<nav>    
+
+<ul>
+    <li>
+        <a href="" class="logo"> 
+        <img  src="imagenes/logo2.jpeg" alt="">
+        <span class="nav-item">Ayudan-T </span>    
+        </a>
+    </li>
+    <li><a href="principal.html"> 
+        <i class="fas fa-home"></i> 
+        <span class="nav-item">Principal</span>
+    </a></li>
+    <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+        <span class="nav-item">Comunidad</span></a></li>
+
+        <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+            <span class="nav-item">Ayudante IA</span></a></li>      
+           
+
+    
+    <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+        <span class="nav-item">Ayuda</span> </a></li>
+
+           
+</ul>
+</nav>
+<br><br>
+
+    <center><div class="titulo"><h2 class="titulo">Pdfs</h2></div></center>
+
+    <br><br>
+<center>
+    <table class="pdfs" >
+        <tr width="33%">
+            <td>
+                <center><a href="https://guao.org/sites/default/files/biblioteca/%C3%81lgebra%20de%20Baldor.pdf">Álgebra de baldur(libro)</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="33%">
+            <td>
+                <center><a href="https://www.tec.ac.cr/sites/default/files/media/doc/habilidad_18
+                    ._ecuaciones_literales_1.pdf"> Tecnológico de Costa Rica</a></center>
+            </td>
+            
+        </tr>
+        <tr width="33%">
+            <td>
+                <center><a href="https://salazarvirtual.sistemaeducativosalazar.mx/
+                    assets/biblioteca/73fd904000f1282fe75fc866fcb5c6f9-U.3%20T.7%20
+                    -%20Algebra%20basica%20ley%20de%20signos.pdf">Ley de signos y despejes</a></center>
+            </td>
+           
+       
+       
+    </table>
+</center>
+
+
+
+
+</body>
+</html>
