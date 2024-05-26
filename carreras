@@ -1,0 +1,92 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+<br><br>
+<center><div class="titulo"><h2 class="titulo">Carreras</h2></div></center>
+
+<nav>    
+
+<ul>
+    <li>
+        <a href="" class="logo"> 
+        <img  src="imagenes/logo2.jpeg" alt="">
+        <span class="nav-item">Ayudan-T </span>    
+        </a>
+    </li>
+    <li><a href="principal.html"> 
+        <i class="fas fa-home"></i> 
+        <span class="nav-item">Principal</span>
+    </a></li>
+    <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+        <span class="nav-item">Comunidad</span></a></li>
+
+        <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+            <span class="nav-item">Ayudante IA</span></a></li>      
+           
+
+
+    <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+        <span class="nav-item">Ayuda</span> </a></li>
+
+        
+</ul>
+</nav>
+<br><br>
+<center>
+<div class="tarjeta">
+    <div class="cara frente"> 
+        <img src="imagenes/ingenieria.jpeg" alt="" class="foto1">
+        <h3>Ingenieria</h3>
+
+    </div>
+    <div class="cara trasera">
+        <h3>Ingenieria</h3>
+        <p>  La ingeniería aplica ciencia y matemática para diseñar y construir estructuras, máquinas y sistemas, resolviendo problemas prácticos y mejorando la vida.</p>
+        <div class="link">
+            <a href="ingenieria.html">Materias</a>
+        </div>
+    </div>
+</div>
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="tarjeta">
+    <div class="cara frente"> 
+        <img src="imagenes/foto2.jpg" alt="" class="foto1">
+        <h3>Psicología</h3>
+
+    </div>
+    <div class="cara trasera">
+        <h3>Psicología</h3>
+        <p>  La psicología estudia la mente y el comportamiento humano, buscando entender y mejorar la salud mental.</p>
+        <div class="link">
+            <a href="psicologia.html">Materias</a>
+        </div>
+    </div>
+</div>
+<br>
+</center>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
