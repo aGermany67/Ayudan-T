@@ -1,0 +1,201 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+
+
+<nav>    
+
+<ul>
+    <li>
+        <a href="" class="logo"> 
+        <img  src="imagenes/logo2.jpeg" alt="">
+        <span class="nav-item">Ayudan-T </span>    
+        </a>
+    </li>
+    <li><a href="principal.html"> 
+        <i class="fas fa-home"></i> 
+        <span class="nav-item">Principal</span>
+    </a></li>
+    <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+        <span class="nav-item">Comunidad</span></a></li>
+
+        <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+            <span class="nav-item">Ayudante IA</span></a></li>      
+           
+
+    
+    <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+        <span class="nav-item">Ayuda</span> </a></li>
+
+           
+</ul>
+</nav>
+<br><br>
+
+    <center><div class="titulo"><h2 class="titulo">Materias</h2></div></center>
+
+    <br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="pdfs-algebra.html">Álgebra</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html"> Introducción al Desarrollo de Aplicaciones Web</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Comunicación Oral y Escrita</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Contabilidad</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Inglés 1</a></center>
+            </td>
+        </tr>
+       
+    </table>
+</center>
+
+<br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Administración</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html"> Calculo Diferencial</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Fundamentos de Programación</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Introducción a Sistemas Operativos</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Inglés 2</a></center>
+            </td>
+        </tr>
+       
+    </table>
+</center>
+<br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Costos 1</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html"> Probabilidad y Estadística</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Cálculo Integral</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Programación Orientada a Objetos 1</a></center>
+            </td>
+                       
+        </tr>
+        <tr>
+            <td>
+                <center><a href="psicologia.html">Inglés 3</a></center>
+            </td>
+        </tr>
+               
+    </table>
+</center>
+<br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Estadística Aplicada</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Mecánica</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Cálculo Integral Avanzado</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Fundamentos de Bases de Datos</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Inglés 4</a></center>
+            </td>
+        </tr>
+       
+    </table>
+</center>
+
+
+
+
+
+
+</body>
+</html>
