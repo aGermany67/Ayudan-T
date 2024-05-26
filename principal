@@ -1,0 +1,84 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+
+
+<nav>    
+
+<ul>
+    <li>
+        <a href="" class="logo"> 
+        <img  src="imagenes/logo2.jpeg" alt="">
+        <span class="nav-item">Ayudan-T </span>    
+        </a>
+    </li>
+    <li><a href="principal.html"> 
+        <i class="fas fa-home"></i> 
+        <span class="nav-item">Principal</span>
+    </a></li>
+    <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+        <span class="nav-item">Comunidad</span></a></li>
+
+        <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+            <span class="nav-item">Ayudante IA</span></a></li>      
+           
+
+   
+    <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+        <span class="nav-item">Ayuda</span> </a></li>
+
+          
+</ul>
+</nav>
+<br><br>
+<center><div class="titulo"><h2 class="titulo">Bienvenido</h2></div>
+<br><br>
+
+<table class="introduccion" >
+<tr> 
+    <td>
+     Bienvenido a Ayudan-T. Esta herramienta está dirigida a cualquier estudiante de nivel superior y futuro profesionista.
+    Aquí podrás estudiar cuando quieras y buscar la respuesta a cualquier duda sobre cualquier materia en tu plan de estudios.
+    Esta herramienta no solo ofrece información ya escrita, sino que también cuenta con un apartado
+     de comunidad donde otros estudiantes podrán ayudarte con metodos, referencias, tecnicas de estudio.
+    Incluyendo no solo material de estudio, sino que también podrás encontrar solución a dudas que tuvieron estudiantes 
+    anteriores a tí.
+    </td>
+</tr>
+</table>
+</center>
+<br><br>
+<center><div class="titulo"><h2 class="titulo">Elige tu Universidad</h2></div><br>
+<table class="Universidades">
+    <tr >
+        <td width="33%">
+<center><img src="imagenes/logoUn.jpeg" class="un"><a href="carreras.html"><br><p class="UN2">Universidad del Norte</p></a></center>
+        </td>
+  
+    
+        <td width="33%">
+<center><img src="imagenes/Logo_de_la_UANL.svg.png" class="un"><br><br>Universidad Autónoma de Nuevo León</center>
+        </td>
+    
+   
+        <td width="33%">
+<center><img src="imagenes/logoMetropolitana.png" class="un"><br><br>Universidad Metropolitana</center>
+        </td>
+    </tr>
+</table>
+</center>
+
+</body>
+</html>
