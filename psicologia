@@ -1,0 +1,264 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+
+
+<nav>    
+
+    <ul>
+        <li>
+            <a href="" class="logo"> 
+            <img  src="imagenes/logo2.jpeg" alt="">
+            <span class="nav-item">Ayudan-T </span>    
+            </a>
+        </li>
+        <li><a href="principal.html"> 
+            <i class="fas fa-home"></i> 
+            <span class="nav-item">Principal</span>
+        </a></li>
+        <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+            <span class="nav-item">Comunidad</span></a></li>
+    
+            <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+                <span class="nav-item">Ayudante IA</span></a></li>      
+               
+    
+        
+        <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+            <span class="nav-item">Ayuda</span> </a></li>
+    
+               
+    </ul>
+    </nav>
+<center>
+    <br><br>
+
+    <center><div class="titulo"><h2 class="titulo">Materias</h2></div></center>
+
+    <br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Historia de la Psicología</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html"> Psicología General</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Sociología</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Bases Biológicas de la Conducta 1</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Inglés 1</a></center>
+            </td>
+        </tr>
+       
+    </table>
+</center>
+
+<br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicología Social</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html"> Metodología de la Investigación</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicología de la Personalidad</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Bases Biológicas de la Conducta 2</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Inglés 2</a></center>
+            </td>
+        </tr>
+       
+    </table>
+</center>
+<br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicología Laboral</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html"> Personalidad 1</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicología Evolutiva de la Infancia a la Adolescencia</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicología Educativa</a></center>
+            </td>
+                       
+        </tr>
+        <tr>
+            <td>
+                <center><a href="psicologia.html">Inglés 3</a></center>
+            </td>
+        </tr>
+               
+    </table>
+</center>
+<br><br>
+<center>
+    <table class="materias-ingenieria" >
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicometría 1</a></center>
+            </td>
+        
+        </tr>
+       
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Personalidad 2</a></center>
+            </td>
+            
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicología Anormal</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Teoría y Técnica de la Entrevista 1</a></center>
+            </td>
+           
+        </tr>
+        <tr width="20%">
+            <td>
+                <center><a href="psicologia.html">Psicopatología General</a></center>
+            </td>
+        </tr>
+       
+    </table>
+</center>
+
+
+<script>
+    function postComment() {
+        var commentInput = document.getElementById('comment-input');
+        var imageInput = document.getElementById('image-input');
+        var commentText = commentInput.value;
+        var imageFile = imageInput.files[0];
+        
+        if (commentText.trim() !== "" || imageFile) {
+            var commentsList = document.getElementById('comments-list');
+            var newComment = document.createElement('div');
+            newComment.className = 'comment';
+
+            var deleteButton = document.createElement('button');
+            deleteButton.textContent = 'Borrar';
+            deleteButton.onclick = function() {
+                commentsList.removeChild(newComment);
+            };
+
+            var likeButton = document.createElement('button');
+            likeButton.className = 'like';
+            likeButton.textContent = 'Me gusta';
+            var likeCount = document.createElement('span');
+            likeCount.className = 'like-count';
+            likeCount.textContent = '0';
+            likeButton.onclick = function() {
+                var currentCount = parseInt(likeCount.textContent, 10);
+                likeCount.textContent = currentCount + 1;
+            };
+
+            var commentButtons = document.createElement('div');
+            commentButtons.className = 'comment-buttons';
+            commentButtons.appendChild(likeButton);
+            commentButtons.appendChild(likeCount);
+            commentButtons.appendChild(deleteButton);
+            newComment.appendChild(commentButtons);
+
+            if (commentText.trim() !== "") {
+                var commentTextNode = document.createElement('p');
+                commentTextNode.textContent = commentText;
+                newComment.appendChild(commentTextNode);
+            }
+
+            if (imageFile) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var img = document.createElement('img');
+                    img.src = e.target.result;
+                    newComment.appendChild(img);
+                };
+                reader.readAsDataURL(imageFile);
+            }
+
+            commentsList.appendChild(newComment);
+            commentInput.value = "";
+            imageInput.value = "";
+        }
+    }
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
