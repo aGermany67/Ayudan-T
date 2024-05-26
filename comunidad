@@ -1,0 +1,183 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+
+
+<nav>    
+
+<ul>
+    <li>
+        <a href="" class="logo"> 
+        <img  src="imagenes/logo2.jpeg" alt="">
+        <span class="nav-item">Ayudan-T </span>    
+        </a>
+    </li>
+    <li><a href="principal.html"> 
+        <i class="fas fa-home"></i> 
+        <span class="nav-item">Principal</span>
+    </a></li>
+    <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+        <span class="nav-item">Comunidad</span></a></li>
+
+        <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+            <span class="nav-item">Ayudante IA</span></a></li>      
+           
+
+   
+    <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+        <span class="nav-item">Ayuda</span> </a></li>
+
+          
+</ul>
+</nav>
+<br><br>
+<center><div class="titulo"><h2 class="titulo">Comunidad</h2></div></center>
+<br><br>
+<center>
+<div class="post-box">
+    <h2>Publica tus dudas</h2>
+    <textarea id="post-text" rows="3" placeholder="Escribe un mensaje..."></textarea>
+    <input type="file" id="post-image" accept="image/*">
+    <button onclick="publishPost()">Publicar</button>
+</div>
+
+
+<div class="posts-list" id="posts-list"></div>
+
+<script>
+    function publishPost() {
+        var postText = document.getElementById('post-text').value;
+        var postImage = document.getElementById('post-image').files[0];
+
+        if (postText.trim() !== "" || postImage) {
+            var postsList = document.getElementById('posts-list');
+            var newPost = document.createElement('div');
+            newPost.className = 'post';
+
+            if (postText.trim() !== "") {
+                var postTextNode = document.createElement('p');
+                postTextNode.textContent = postText;
+                newPost.appendChild(postTextNode);
+            }
+
+            if (postImage) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var img = document.createElement('img');
+                    img.src = e.target.result;
+                    newPost.appendChild(img);
+                };
+                reader.readAsDataURL(postImage);
+            }
+
+            var likeButton = document.createElement('button');
+            likeButton.className = 'like';
+            likeButton.textContent = 'Me gusta';
+            var likeCount = document.createElement('span');
+            likeCount.className = 'like-count';
+            likeCount.textContent = '0';
+            likeButton.onclick = function() {
+                var currentCount = parseInt(likeCount.textContent, 10);
+                likeCount.textContent = currentCount + 1;
+            };
+
+            var deleteButton = document.createElement('button');
+            deleteButton.className = 'delete-button';
+            deleteButton.textContent = 'Borrar';
+            deleteButton.onclick = function() {
+                postsList.removeChild(newPost);
+            };
+
+            var commentSection = document.createElement('div');
+            commentSection.className = 'comment-section';
+            commentSection.innerHTML = `
+                <h3>Comentarios</h3>
+                <textarea rows="2" placeholder="Escribe un comentario..."></textarea>
+                <input type="file" accept="image/*">
+                <button onclick="addComment(this)">Comentar</button>
+                <div class="comments"></div>
+            `;
+            newPost.appendChild(likeButton);
+            newPost.appendChild(likeCount);
+            newPost.appendChild(deleteButton);
+            newPost.appendChild(commentSection);
+
+            postsList.appendChild(newPost);
+            document.getElementById('post-text').value = "";
+            document.getElementById('post-image').value = "";
+        }
+    }
+
+    function addComment(button) {
+        var commentText = button.previousElementSibling.previousElementSibling.value;
+        var commentImage = button.previousElementSibling.files[0];
+
+        if (commentText.trim() !== "" || commentImage) {
+            var commentsDiv = button.nextElementSibling;
+            var newComment = document.createElement('div');
+            newComment.className = 'comment';
+
+            if (commentText.trim() !== "") {
+                var commentTextNode = document.createElement('p');
+                commentTextNode.textContent = commentText;
+                newComment.appendChild(commentTextNode);
+            }
+
+            if (commentImage) {
+                var reader = new FileReader();
+                reader.onload = function(e) {
+                    var img = document.createElement('img');
+                    img.src = e.target.result;
+                    newComment.appendChild(img);
+                };
+                reader.readAsDataURL(commentImage);
+            }
+
+            var likeButton = document.createElement('button');
+            likeButton.className = 'like';
+            likeButton.textContent = 'Me gusta';
+            var likeCount = document.createElement('span');
+            likeCount.className = 'like-count';
+            likeCount.textContent = '0';
+            likeButton.onclick = function() {
+                var currentCount = parseInt(likeCount.textContent, 10);
+                likeCount.textContent = currentCount + 1;
+            };
+
+            var deleteButton = document.createElement('button');
+            deleteButton.className = 'delete-button';
+            deleteButton.textContent = 'Borrar';
+            deleteButton.onclick = function() {
+                commentsDiv.removeChild(newComment);
+            };
+
+            newComment.appendChild(likeButton);
+            newComment.appendChild(likeCount);
+            newComment.appendChild(deleteButton);
+            commentsDiv.appendChild(newComment);
+            button.previousElementSibling.previousElementSibling.value = "";
+            button.previousElementSibling.value = "";
+        }
+    }
+</script>
+
+
+
+
+</center>
+
+
+</body>
+</html>
