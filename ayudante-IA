@@ -1,0 +1,61 @@
+<html>
+    <title>HACKATON</title>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+<body>
+    <header>
+ <div class="encabezado">
+
+<img src="imagenes/logo1.jpeg" alt="" class="baner">
+
+ </div>
+</header>
+
+
+<nav>    
+
+<ul>
+    <li>
+        <a href="" class="logo"> 
+        <img  src="imagenes/logo2.jpeg" alt="">
+        <span class="nav-item">Ayudan-T </span>    
+        </a>
+    </li>
+    <li><a href="principal.html"> 
+        <i class="fas fa-home"></i> 
+        <span class="nav-item">Principal</span>
+    </a></li>
+    <li><a href="comunidad.html"> <i class="fas fa-user"></i> 
+        <span class="nav-item">Camunidad</span></a></li>
+
+        <li><a href="ayudante-IA.html"> <i class="fa-solid fa-graduation-cap"></i> 
+            <span class="nav-item">Ayudante IA</span></a></li>      
+           
+
+   
+    <li><a href="ayuda.html"><i class="fas fa-question"></i> 
+        <span class="nav-item">Ayuda</span> </a></li>
+
+         
+</ul>
+</nav> 
+
+
+
+<center>
+    <iframe 
+    src="https://www.stack-ai.com/public_form/8bc9a377-6912-4dc0-8cf1-e188f66582f2/58cf8526-7b33-4821-891b-7286f400d290/665218b2fcd7158281707aa5" 
+    width="100%" 
+    height="80%" 
+    title="Form" 
+    allow="clipboard-read; clipboard-write">
+   </iframe>
+</center>
+
+
+
+</body>
+</html>
